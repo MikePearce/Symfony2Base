@@ -12,7 +12,8 @@ It contains:
 
 # Installation
   1. Simply clone this, or copy it, then delete the .git so you can create a new git repo.
-  2.  rm -rf app/cache/*
+  2. Run `php composer.phar update`
+  2.  `rm -rf app/cache/*
       rm -rf app/logs/*
       sudo chmod +a "_www allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
-      sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
+      sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs`
