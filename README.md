@@ -17,3 +17,4 @@ It contains:
   3. `rm -rf app/logs/*`
   4. `sudo chmod +a "_www allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs`
   5. `sudo chmod +a "``whoami`` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs`
+  6. If you get any trouble after this, restart apache.
