@@ -18,3 +18,7 @@ It contains:
   4. `sudo chmod +a "_www allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs`
   5. `sudo chmod +a "``whoami`` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs`
   6. If you get any trouble after this, restart apache.
+  7. 
+  
+Alternatively, if you're on ubuntu, use this link to set file permissions:
+http://vvv.tobiassjosten.net/symfony/symfony2-file-permissions-in-ubuntu/
